@@ -1,0 +1,3 @@
+com\test\entity\Student.class
+com\test\RestTemplateApplication.class
+com\test\controller\RestHanlder.class

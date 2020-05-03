@@ -1,0 +1,15 @@
+server:
+  port: 8030
+spring:
+  application:
+    name: gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+zuul:
+  routes:
+    # zuul.routes.provider ：给服务提供者 provider 设置映射
+    # 之前是consumer 直接 访问 provider，现在二者之间加了一个网关
+    # 这个provider就是一个提供者的名字，这样就不用访问端口了
+    provider: /p/**
