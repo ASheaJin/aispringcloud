@@ -1,6 +1,6 @@
 package com.test.controller;
 
-import com.shebao.framelib.util.bean.ReturnData;
+//import com.shebao.framelib.util.bean.ReturnData;
 import com.test.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -19,30 +19,30 @@ public class RestHanlder {
     @Autowired
     private RestTemplate restTemplate;
 
-    @GetMapping("/test")
-    public String test(){
-        Map<String, String> map = new HashMap<>();
-        map.put("companyId", "2029418");
-        map.put("serviceType", "1");
-        String body = "";
-        try {
-            ResponseEntity<ReturnData> returnData = restTemplate.postForEntity(
-                    "http://127.0.0.1:8889/DBController/getCompanyInfoByCompanyId",
-                    map, ReturnData.class
-            );
-
-            HttpStatus statusCode = returnData.getStatusCode();
-            if (statusCode.is2xxSuccessful()) {
-                body = "success!" + statusCode.value();
-                System.out.println("success!" + statusCode.value());
-                System.out.println(Objects.requireNonNull(returnData.getBody()).getRetCode());
-            }
-        } catch (Exception e) {
-            body = "zuo wu";
-        }
-
-        return body;
-    }
+//    @GetMapping("/test")
+//    public String test(){
+//        Map<String, String> map = new HashMap<>();
+//        map.put("companyId", "2029418");
+//        map.put("serviceType", "1");
+//        String body = "";
+//        try {
+//            ResponseEntity<ReturnData> returnData = restTemplate.postForEntity(
+//                    "http://127.0.0.1:8889/DBController/getCompanyInfoByCompanyId",
+//                    map, ReturnData.class
+//            );
+//
+//            HttpStatus statusCode = returnData.getStatusCode();
+//            if (statusCode.is2xxSuccessful()) {
+//                body = "success!" + statusCode.value();
+//                System.out.println("success!" + statusCode.value());
+//                System.out.println(Objects.requireNonNull(returnData.getBody()).getRetCode());
+//            }
+//        } catch (Exception e) {
+//            body = "zuo wu";
+//        }
+//
+//        return body;
+////    }
 
     @GetMapping("/findAll")
     public Collection<Student> findAll(){

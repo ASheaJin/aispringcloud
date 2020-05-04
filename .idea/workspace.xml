@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2db6cca-aca8-4ebc-9703-e8c8eda204c5" name="Default Changelist" comment="" />
+    <list default="true" id="a2db6cca-aca8-4ebc-9703-e8c8eda204c5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/FeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/controller/FeignHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/feign/FeignProviderClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/feign/impl/FeignError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/HystrixApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/controller/HystrixHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/feign/impl/FeignError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/test/NativeConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/test/controller/NativeConfigHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/java/com/test/NativeConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/RibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/controller/RibbonHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aispringcloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resttemplate/src/main/java/com/test/controller/RestHanlder.java" beforeDir="false" afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/test/controller/RestHanlder.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,46 +81,62 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/dev/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\dev\apache-maven-3.6.3\conf\settings_bak.xml" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="$USER_HOME$/Documents/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1bCDFSwH8FBmEpJnvuOFfYGBDgW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hystrix/src/main/java/com/test" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/feign/src" />
+      <recent name="$PROJECT_DIR$/feign" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.test" />
+      <recent name="com.test.feign.impl" />
       <recent name="com.test.entity" />
+      <recent name="com.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hystrix/src/main/java/com/test" />
       <recent name="C:\Users\jinxinyi\IdeaProjects\aispringcloud\consumer\src\main\resources" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RestTemplateApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -156,11 +226,27 @@
       <updated>1588127077769</updated>
       <workItem from="1588127083700" duration="37589000" />
       <workItem from="1588512905680" duration="3085000" />
+      <workItem from="1588518471246" duration="137000" />
+      <workItem from="1588518663177" duration="10507000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1588233195732">
@@ -168,10 +254,19 @@
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588233195732" />
     <state x="1641" y="25" key="#Project_Structure/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588143715767" />
-    <state x="1854" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1588130463468">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="310" y="75" key="#RestTemplateApplication" timestamp="1588518909066">
+      <screen x="0" y="23" width="1388" height="877" />
+    </state>
+    <state x="310" y="75" key="#RestTemplateApplication/0.23.1388.877@0.23.1388.877" timestamp="1588518909066" />
+    <state x="514" y="110" key="#com.intellij.ide.util.MemberChooser" timestamp="1588607325246">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="1854" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588130463463" />
+    <state x="514" y="110" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1588607325246" />
+    <state x="342" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588611010184">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="342" y="157" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.1440.877@0.23.1440.877" timestamp="1588611010184" />
     <state x="1433" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588139599353">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
@@ -254,12 +349,22 @@
     </state>
     <state width="1323" height="115" key="GridCell.Tab.2.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588237403345" />
     <state width="1286" height="389" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1588218853215" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1588237156006">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="265" y="123" key="Maven.ArtifactSearchDialog" timestamp="1588606145803">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="265" y="123" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1588606145803" />
+    <state x="471" y="171" key="RollbackChangesDialog" timestamp="1588610248422">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="471" y="171" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1588610248422" />
+    <state x="196" y="23" key="SettingsEditor" timestamp="1588615421732">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588237156006" />
     <state x="1552" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588127903707" />
     <state x="186" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588217855900" />
+    <state x="189" y="23" key="SettingsEditor/0.23.1388.877@0.23.1388.877" timestamp="1588519905582" />
+    <state x="196" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1588615421732" />
     <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1588515571340">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -276,17 +381,19 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="165" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1588515206160" />
-    <state x="1481" y="80" key="new project wizard" timestamp="1588142838984">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="121" y="119" key="new project wizard" timestamp="1588611813276">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="1481" y="80" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588142838984" />
+    <state x="121" y="119" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1588611813276" />
     <state x="1705" y="162" key="run.anything.popup" timestamp="1588128122030">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="1705" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588128122030" />
-    <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588132316896">
-      <screen x="1366" y="0" width="1366" height="728" />
+    <state x="352" y="82" width="683" height="817" key="search.everywhere.popup" timestamp="1588519340265">
+      <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state x="1712" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588132316896" />
+    <state x="352" y="82" width="683" height="817" key="search.everywhere.popup/0.23.1388.877@0.23.1388.877" timestamp="1588519340265" />
   </component>
 </project>
