@@ -19,42 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2db6cca-aca8-4ebc-9703-e8c8eda204c5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/configclient.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/FeignApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/controller/FeignHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/feign/FeignProviderClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/java/com/test/feign/impl/FeignError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/controller/HystrixHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/test/feign/impl/FeignError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigclient/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/test/NativeConfigClientApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/java/com/test/controller/NativeConfigHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigclient/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/java/com/test/NativeConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nativeconfigserver/src/main/resources/shared/configclient-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/RibbonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/controller/RibbonHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/java/com/test/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ribbon/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="a2db6cca-aca8-4ebc-9703-e8c8eda204c5" name="Default Changelist" comment="添加ribbon，hystrix，config">
+      <change afterPath="$PROJECT_DIR$/configclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configclient/src/main/java/com/test/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configclient/src/main/java/com/test/controller/HelloHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configclient/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/java/com/test/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aispringcloud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resttemplate/src/main/java/com/test/controller/RestHanlder.java" beforeDir="false" afterPath="$PROJECT_DIR$/resttemplate/src/main/java/com/test/controller/RestHanlder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +89,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -138,7 +113,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RestTemplateApplication">
+  <component name="RunManager" selected="Spring Boot.EurekServerApplication">
     <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="consumer" />
       <extension name="coverage">
@@ -206,8 +181,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RestTemplateApplication" />
         <item itemvalue="Spring Boot.EurekServerApplication" />
+        <item itemvalue="Spring Boot.RestTemplateApplication" />
         <item itemvalue="Spring Boot.ProviderApplication" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="Spring Boot.ZuulApplication" />
@@ -227,8 +202,16 @@
       <workItem from="1588127083700" duration="37589000" />
       <workItem from="1588512905680" duration="3085000" />
       <workItem from="1588518471246" duration="137000" />
-      <workItem from="1588518663177" duration="10507000" />
+      <workItem from="1588518663177" duration="12666000" />
     </task>
+    <task id="LOCAL-00001" summary="添加ribbon，hystrix，config">
+      <created>1588615559825</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588615559825</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +230,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="添加ribbon，hystrix，config" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加ribbon，hystrix，config" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1588233195732">
@@ -357,18 +342,19 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="471" y="171" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1588610248422" />
-    <state x="196" y="23" key="SettingsEditor" timestamp="1588615421732">
+    <state x="196" y="23" key="SettingsEditor" timestamp="1588615467011">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1588237156006" />
     <state x="1552" y="8" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588127903707" />
     <state x="186" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1588217855900" />
     <state x="189" y="23" key="SettingsEditor/0.23.1388.877@0.23.1388.877" timestamp="1588519905582" />
-    <state x="196" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1588615421732" />
-    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1588515571340">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="196" y="23" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1588615467011" />
+    <state x="290" y="142" key="Vcs.Push.Dialog.v2" timestamp="1588615573090">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1588515571340" />
+    <state x="290" y="142" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1588615573090" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1588512969475">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -381,11 +367,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="453" y="165" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1588515206160" />
-    <state x="121" y="119" key="new project wizard" timestamp="1588611813276">
+    <state x="121" y="119" key="new project wizard" timestamp="1588616541694">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="1481" y="80" key="new project wizard/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1588142838984" />
-    <state x="121" y="119" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1588611813276" />
+    <state x="121" y="119" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1588616541694" />
     <state x="1705" y="162" key="run.anything.popup" timestamp="1588128122030">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,21 @@
+#通过这个server，可以让其他的程序访问到github上到配置文件
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/ASheaJin/aispringcloud.git
+          search-paths: config
+          username: ASheaJin
+          password: jxy20132501258
+      label: master
+eureka:
+  client:
+    service-url:
+      # 注册中心的访问地址
+      defaultZone: http://localhost:8761/eureka/
+
