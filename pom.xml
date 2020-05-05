@@ -21,6 +21,8 @@
         <module>nativeconfigclient</module>
         <module>configserver</module>
         <module>configclient</module>
+        <module>zipkin</module>
+        <module>zipkinclient</module>
     </modules>
 
 <!--    父工程，spring boot基本环境，所有子工程都会有spring boot环境-->
